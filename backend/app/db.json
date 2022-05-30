@@ -1,0 +1,20 @@
+{
+  "release": [
+    {
+      "host": "127.0.0.1",
+      "username": "root",
+      "passwd": "0811",
+      "database": "image_classify",
+      "port": 3306
+    }
+  ],
+  "debug": [
+    {
+      "host": "127.0.0.1",
+      "username": "root",
+      "passwd": "0811",
+      "database": "image_classify",
+      "port": 3306
+    }
+  ]
+}

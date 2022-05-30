@@ -1,0 +1,295 @@
+2022-05-30 21:14:01,633 mysqlDB.py 42 INFO:  [{'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}]
+2022-05-30 21:14:01,635 mysqlDB.py 62 INFO:  {'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}
+2022-05-30 21:14:01,662 mysqlDB.py 79 ERROR:  (2003, "Can't connect to MySQL server on '127.0.0.1'")
+2022-05-30 21:15:50,340 mysqlDB.py 42 INFO:  [{'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}]
+2022-05-30 21:15:50,341 mysqlDB.py 62 INFO:  {'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}
+2022-05-30 21:15:50,346 mysqlDB.py 79 ERROR:  (2003, "Can't connect to MySQL server on '127.0.0.1'")
+2022-05-30 21:18:00,321 mysqlDB.py 42 INFO:  [{'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}]
+2022-05-30 21:18:00,322 mysqlDB.py 62 INFO:  {'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}
+2022-05-30 21:18:00,325 mysqlDB.py 79 ERROR:  (2003, "Can't connect to MySQL server on '127.0.0.1'")
+2022-05-30 21:21:10,005 mysqlDB.py 42 INFO:  [{'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}]
+2022-05-30 21:21:10,008 mysqlDB.py 62 INFO:  {'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}
+2022-05-30 21:21:10,035 mysqlDB.py 79 ERROR:  (2003, "Can't connect to MySQL server on '127.0.0.1'")
+2022-05-30 21:31:16,372 mysqlDB.py 42 INFO:  [{'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}]
+2022-05-30 21:31:16,372 mysqlDB.py 62 INFO:  {'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}
+2022-05-30 21:31:16,382 router.py 10 INFO:  contract add route end
+2022-05-30 21:31:16,383 app.py 52 INFO:  contract main started...
+2022-05-31 01:22:51,371 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:22:51,385 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:22:51,386 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/signup
+2022-05-31 01:22:51,389 login.py 97 INFO:  _sign_up is begin! {'username': 'sky', 'psd': '123', 'confirmPsd': '123', 'phone': '13423535534', 'email': '123@qq.com'}
+2022-05-31 01:22:57,273 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:22:57,276 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:22:57,276 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/login
+2022-05-31 01:22:57,277 login.py 27 INFO:  ------login start-------------
+2022-05-31 01:22:57,277 login.py 32 INFO:  {'username': 'sky', 'psd': '123'}
+2022-05-31 01:22:57,281 login.py 49 INFO:  [{'id': 8, 'username': 'sky', 'psd': '173df25e28285a071a90769f451564b5c7d8fdab6485a136d831166d6f8af6dc', 'phone': '13423535534', 'email': '123@qq.com', 'salt': '22431a58e03d11ec9958505bc2ba8dd2'}]
+2022-05-31 01:22:57,292 login.py 76 INFO:  --------------login end---------------
+2022-05-31 01:23:02,362 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:23:02,363 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:23:02,363 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:23:02,364 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:23:02,375 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:23:02,377 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:23:02,387 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:23:58,693 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:23:58,695 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:23:58,697 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/switch_use_status
+2022-05-31 01:23:58,699 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:23:58,702 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:23:58,703 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:23:58,943 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:23:58,945 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:23:58,947 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:23:58,948 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:23:58,949 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:23:58,951 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:23:58,953 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 1}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 0}]}
+2022-05-31 01:24:29,650 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:24:29,653 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:24:29,654 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/process_img
+2022-05-31 01:24:30,645 exception.py 23 ERROR:  handle_error traceback = Traceback (most recent call last):
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\utils\exception.py", line 12, in wrapper
+    return await function(*args, **kwargs)
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\controller.py", line 81, in _process_img
+    weight = torch.load(model_filename)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'models/resnet50-19c8e357.pth'
+
+2022-05-31 01:24:30,649 exception.py 30 INFO:  handle_error error = [Errno 2] No such file or directory: 'models/resnet50-19c8e357.pth'
+2022-05-31 01:24:30,649 exception.py 31 INFO:  handle_error param = contract
+2022-05-31 01:24:41,055 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:24:41,056 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:24:41,056 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/process_img
+2022-05-31 01:24:41,353 exception.py 23 ERROR:  handle_error traceback = Traceback (most recent call last):
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\utils\exception.py", line 12, in wrapper
+    return await function(*args, **kwargs)
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\controller.py", line 81, in _process_img
+    weight = torch.load(model_filename)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'models/resnet50-19c8e357.pth'
+
+2022-05-31 01:24:41,355 exception.py 30 INFO:  handle_error error = [Errno 2] No such file or directory: 'models/resnet50-19c8e357.pth'
+2022-05-31 01:24:41,355 exception.py 31 INFO:  handle_error param = contract
+2022-05-31 01:25:06,642 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:25:06,644 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:25:06,644 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:25:06,645 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:25:06,645 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:25:06,645 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:25:06,647 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 1}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 0}]}
+2022-05-31 01:25:12,199 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:25:12,201 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:25:12,201 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/switch_use_status
+2022-05-31 01:25:12,201 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:25:12,201 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:25:12,202 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:25:12,465 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:25:12,466 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:25:12,466 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:25:12,466 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:25:12,467 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:25:12,468 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:25:12,469 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:25:22,228 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:25:22,228 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:25:22,229 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/process_img
+2022-05-31 01:25:22,533 exception.py 23 ERROR:  handle_error traceback = Traceback (most recent call last):
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\utils\exception.py", line 12, in wrapper
+    return await function(*args, **kwargs)
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\controller.py", line 81, in _process_img
+    weight = torch.load(model_filename)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 579, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'models/resnet50-1.pth'
+
+2022-05-31 01:25:22,536 exception.py 30 INFO:  handle_error error = [Errno 2] No such file or directory: 'models/resnet50-1.pth'
+2022-05-31 01:25:22,537 exception.py 31 INFO:  handle_error param = contract
+2022-05-31 01:25:56,423 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:25:56,423 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:25:56,424 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:25:56,425 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI1NzU5NzM5MzMzdDAwMDk2In0.OrHwgKVOq9y9MnssURu67Z_VkPfvl2kZsg-9Fks9yHA
+2022-05-31 01:25:56,426 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '5759739333t00096'}
+2022-05-31 01:25:56,427 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:25:56,428 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:26:04,704 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:26:04,705 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:26:04,705 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/login
+2022-05-31 01:26:04,705 login.py 27 INFO:  ------login start-------------
+2022-05-31 01:26:04,705 login.py 32 INFO:  {'username': 'sky', 'psd': '123'}
+2022-05-31 01:26:04,706 login.py 49 INFO:  [{'id': 8, 'username': 'sky', 'psd': '173df25e28285a071a90769f451564b5c7d8fdab6485a136d831166d6f8af6dc', 'phone': '13423535534', 'email': '123@qq.com', 'salt': '22431a58e03d11ec9958505bc2ba8dd2'}]
+2022-05-31 01:26:04,707 login.py 76 INFO:  --------------login end---------------
+2022-05-31 01:26:18,853 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:26:18,854 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:26:18,854 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:26:18,855 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:26:18,856 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:26:18,856 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:26:18,858 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:29:33,087 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:29:33,088 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:29:33,090 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:29:33,091 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:29:33,091 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:29:33,092 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:29:33,093 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:30:23,585 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:30:23,586 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:30:23,586 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/upload_model
+2022-05-31 01:30:23,719 exception.py 23 ERROR:  handle_error traceback = Traceback (most recent call last):
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\utils\exception.py", line 12, in wrapper
+    return await function(*args, **kwargs)
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\controller.py", line 120, in _upload_model
+    chunk = await reader.read_chunk()  # 默认是8192个字节。
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\aiohttp\multipart.py", line 310, in read_chunk
+    chunk = await self._read_chunk_from_stream(size)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\aiohttp\multipart.py", line 340, in _read_chunk_from_stream
+    chunk = await self._content.read(size)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\aiohttp\streams.py", line 380, in read
+    await self._wait("read")
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\aiohttp\streams.py", line 308, in _wait
+    await waiter
+concurrent.futures._base.CancelledError
+
+2022-05-31 01:30:23,722 exception.py 30 INFO:  handle_error error = 
+2022-05-31 01:30:23,723 exception.py 31 INFO:  handle_error param = contract
+2022-05-31 01:30:40,262 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:30:40,262 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:30:40,263 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/upload_model
+2022-05-31 01:30:40,529 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:30:40,530 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:30:40,530 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:30:40,531 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:30:40,532 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:30:40,534 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:30:40,535 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 1}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245, 'model_size': 0, 'in_use': 0}]}
+2022-05-31 01:30:43,958 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:30:43,959 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:30:43,959 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/switch_use_status
+2022-05-31 01:30:43,959 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:30:43,960 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:30:43,961 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:30:44,296 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:30:44,297 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:30:44,297 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:30:44,298 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:30:44,299 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:30:44,299 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:30:44,300 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 9898, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 8989, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:30:54,097 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:30:54,098 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:30:54,100 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/process_img
+2022-05-31 01:30:55,762 exception.py 23 ERROR:  handle_error traceback = Traceback (most recent call last):
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\utils\exception.py", line 12, in wrapper
+    return await function(*args, **kwargs)
+  File "D:\学习\智能实验室\毕设\万志杨_毕设\代码打包\系统代码\image_classify\image_classify\backend\app\controller.py", line 81, in _process_img
+    weight = torch.load(model_filename)
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 585, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "D:\ProgramData\Anaconda3\envs\homework\lib\site-packages\torch\serialization.py", line 242, in __init__
+    super(_open_zipfile_reader, self).__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: [enforce fail at ..\caffe2\serialize\inline_container.cc:145] . PytorchStreamReader failed reading zip archive: failed finding central directory
+
+2022-05-31 01:30:55,765 exception.py 30 INFO:  handle_error error = [enforce fail at ..\caffe2\serialize\inline_container.cc:145] . PytorchStreamReader failed reading zip archive: failed finding central directory
+2022-05-31 01:30:55,766 exception.py 31 INFO:  handle_error param = contract
+2022-05-31 01:32:13,964 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:32:13,965 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:32:13,965 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:32:13,965 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:32:13,966 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:32:13,966 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:32:13,968 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:38:32,115 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:38:32,116 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:38:32,117 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:38:32,117 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:38:32,119 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:38:32,120 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:38:32,121 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:38:46,738 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:38:46,740 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:38:46,740 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:38:46,740 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:38:46,742 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:38:46,742 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:38:46,744 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 3, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:42:35,323 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:42:35,324 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:42:35,325 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:42:35,326 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:42:35,327 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:42:35,328 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:42:35,333 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 2, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:45:14,137 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:45:14,138 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:45:14,139 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:45:14,139 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:45:14,140 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:45:14,140 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:45:14,141 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 2, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 0, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:45:29,201 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:45:29,202 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:45:29,203 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:45:29,207 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:45:29,210 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:45:29,212 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:45:29,214 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 2, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 5, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 4, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:45:45,985 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:45:45,986 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:45:45,987 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:45:45,987 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:45:45,988 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:45:45,989 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:45:45,990 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 2, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': 3467456, 'model_size': 0, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': 9090456, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 5, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': 89893455, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 1, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': 10000643, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 4, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': 4245234, 'model_size': 0, 'in_use': 1}]}
+2022-05-31 01:46:54,843 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:46:54,844 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:46:54,844 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:46:54,846 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:46:54,847 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:46:54,849 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:46:54,852 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': None, 'model_size': 0, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': None, 'model_size': 0, 'in_use': 0}, {'id': 12, 'model_type': 3, 'filename': 'resnet50-1.pth', 'acc': 91.0, 'param': None, 'model_size': 0, 'in_use': 0}, {'id': 13, 'model_type': 5, 'filename': 'cnn_best.pth', 'acc': 96.0, 'param': None, 'model_size': 129, 'in_use': 1}]}
+2022-05-31 01:48:54,691 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:48:54,692 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:48:54,693 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:48:54,693 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:48:54,697 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:48:54,699 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:48:54,701 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 12, 'model_type': 3, 'filename': 'densenet.pth', 'acc': 91.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 13, 'model_type': 5, 'filename': 'best.pth', 'acc': 96.0, 'param': None, 'model_size': 129, 'in_use': 1}]}
+2022-05-31 01:51:58,126 mysqlDB.py 42 INFO:  [{'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}]
+2022-05-31 01:51:58,127 mysqlDB.py 62 INFO:  {'host': '127.0.0.1', 'username': 'root', 'passwd': '0811', 'database': 'image_classify', 'port': 3306}
+2022-05-31 01:51:58,133 router.py 10 INFO:  contract add route end
+2022-05-31 01:51:58,134 app.py 52 INFO:  contract main started...
+2022-05-31 01:52:44,962 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:52:44,963 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:52:44,963 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:52:44,964 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiI0NG4zMkE3Nm1YMDg5WDgyIn0.fE8vEvncx6mBSsqmKL8A12bwhBj5yAcE-2MB5wFkvkA
+2022-05-31 01:52:44,964 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': '44n32A76mX089X82'}
+2022-05-31 01:52:44,965 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:52:51,130 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:52:51,130 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:52:51,131 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/login
+2022-05-31 01:52:51,132 login.py 27 INFO:  ------login start-------------
+2022-05-31 01:52:51,132 login.py 32 INFO:  {'username': 'sky', 'psd': '123'}
+2022-05-31 01:52:51,134 login.py 49 INFO:  [{'id': 8, 'username': 'sky', 'psd': '173df25e28285a071a90769f451564b5c7d8fdab6485a136d831166d6f8af6dc', 'phone': '13423535534', 'email': '123@qq.com', 'salt': '22431a58e03d11ec9958505bc2ba8dd2'}]
+2022-05-31 01:52:51,135 login.py 76 INFO:  --------------login end---------------
+2022-05-31 01:52:52,979 httpserver.py 79 INFO:  _jwt_decode_factory start...
+2022-05-31 01:52:52,979 httpserver.py 85 INFO:  header:POST
+2022-05-31 01:52:52,979 httpserver.py 86 INFO:  _jwt_decode_factory url=http://127.0.0.1:10051/get_model_list
+2022-05-31 01:52:52,980 httpserver.py 95 INFO:  _jwt_decode_factory scheme=Bearer, token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwZXJtaXNzaW9uIjp7fSwiZW50ZXJpbmZvIjp7ImlkIjo4LCJ1c2VybmFtZSI6InNreSIsInBob25lIjoiMTM0MjM1MzU1MzQiLCJlbWFpbCI6IjEyM0BxcS5jb20ifSwiand0aWQiOiJ1RDI2NjM2VzdKNjI1N2s4In0.zfZSSGhkJNIz7kR5B8WO4kzLIGFxG29lCnSdCwUGZdw
+2022-05-31 01:52:52,980 httpserver.py 98 INFO:  decoded info={'permission': {}, 'enterinfo': {'id': 8, 'username': 'sky', 'phone': '13423535534', 'email': '123@qq.com'}, 'jwtid': 'uD26636W7J6257k8'}
+2022-05-31 01:52:52,980 token_mgr.py 29 INFO:  refresh_token start...
+2022-05-31 01:52:52,981 controller.py 29 INFO:  {'data': [{'id': 9, 'model_type': 0, 'filename': 'vgg16-397923af.pth', 'acc': 92.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 10, 'model_type': 1, 'filename': 'resnet50-19c8e357.pth', 'acc': 90.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 11, 'model_type': 2, 'filename': 'alexnet-owt-4df8aa71.pth', 'acc': 89.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 12, 'model_type': 3, 'filename': 'densenet.pth', 'acc': 91.0, 'param': None, 'model_size': None, 'in_use': 0}, {'id': 13, 'model_type': 5, 'filename': 'best.pth', 'acc': 96.0, 'param': None, 'model_size': 129, 'in_use': 1}]}
