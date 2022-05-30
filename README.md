@@ -1,1 +1,2 @@
 # Image_classification_system
+需要新建一个frontend文件夹和backend并排，将ui文件夹放在里面。
